@@ -1,0 +1,19 @@
+# Private Schluessel und Secrets - NIEMALS committen
+*.key
+*.pem
+id_rsa
+id_ed25519
+*.pub
+.env
+*secret*
+*token*
+
+# Python (fuer spaetere Projekte)
+__pycache__/
+*.pyc
+
+# Betriebssystem- und Editor-Muell
+.DS_Store
+Thumbs.db
+*~
+*.swp
